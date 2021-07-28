@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "69422152059",
+    "project_id": "majoostarwars",
+    "storage_bucket": "majoostarwars.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69422152059:android:b8033c0a7ccc18a9ebe5de",
+        "android_client_info": {
+          "package_name": "com.abelherl.majoo_star_wars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69422152059-7vlh1qlp7k25vu14gt1p96u2lq4fpi37.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abelherl.majoo_star_wars",
+            "certificate_hash": "8d24114093aebbc623be67a70532097451ef519f"
+          }
+        },
+        {
+          "client_id": "69422152059-hp0mf5bbefi1usc1q93no56544b5edes.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9AusAQqOo0SC1Gy8FqvPWPe4hM8Z0iHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69422152059-hp0mf5bbefi1usc1q93no56544b5edes.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

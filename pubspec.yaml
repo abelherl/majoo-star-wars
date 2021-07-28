@@ -1,0 +1,67 @@
+name: majoo_star_wars
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Cupertino Icons
+  cupertino_icons: ^1.0.2
+  # Styling
+  division: ^0.9.0
+  # Google Sign In
+  google_sign_in: ^5.0.5
+  # BLoC
+  flutter_bloc: ^7.0.1
+  # SQLite
+  sqflite: ^2.0.0+3
+  # Local Cache
+  shared_preferences: ^2.0.6
+  # Equatable
+  equatable: ^2.0.3
+  # Dartz
+  dartz: ^0.10.0-nullsafety.2
+  # Cached Network Image
+  cached_network_image: ^3.1.0
+  # Sign In Button
+  flutter_signin_button: ^2.0.0
+  # Dio
+  dio: ^4.0.0
+  # Spinkit
+  flutter_spinkit: ^5.0.0
+  # Flutter Launcher
+  flutter_launcher_icons: ^0.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/media/starwars.png"
+  image_path_ios: "assets/media/starwars.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/media/
+
+  fonts:
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/quicksand/Quicksand-Regular.ttf
+        - asset: assets/fonts/quicksand/Quicksand-Light.ttf
+          weight: 300
+        - asset: assets/fonts/quicksand/Quicksand-SemiBold.ttf
+          weight: 500
+        - asset: assets/fonts/quicksand/Quicksand-Bold.ttf
+          weight: 700
